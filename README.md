@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### import the menu component
+```
+import menux from '../components/menu';
+
+...
+<menux :list="list" @click-menu="onClickMenu"/>
+```
